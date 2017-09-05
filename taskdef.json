@@ -2,8 +2,8 @@
     "family": "launch-test-app",
     "containerDefinitions": [
         {
-            "image": "750037626691.dkr.ecr.ap-southeast-1.amazonaws.com/http-app:latest",
-            "name": "bwce-test-app",
+            "image": "750037626691.dkr.ecr.ap-southeast-1.amazonaws.com/service-reg:latest",
+            "name": "bwce-service-reg",
             "cpu": 10,
             "memory": 512,
             "essential": true,
@@ -16,7 +16,11 @@
             "environment": [
                 {
                     "name": "BW_LOGLEVEL",
-                    "value": "DEBUG"
+                    "value": "DEBUG",
+                    "CONSUL_SERVER_URL": "http://104.196.10.30/",
+                    "DOCKER_LOCAL_HOST_IP": "54.255.236.226",
+                    "DOCKER_LOCAL_HOST_PORT": "8080"
+                    
                 }
             ],
             "logConfiguration": {
