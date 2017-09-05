@@ -16,10 +16,19 @@
             "environment": [
                 {
                     "name": "BW_LOGLEVEL",
-                    "value": "DEBUG",
-                    "CONSUL_SERVER_URL": "http://104.196.10.30/",
-                    "DOCKER_LOCAL_HOST_IP": "54.255.236.226",
-                    "DOCKER_LOCAL_HOST_PORT": "8080"
+                    "value": "DEBUG"
+                },
+                {
+                    "name": "CONSUL_SERVER_URL",
+                    "value": "http://104.196.10.30/"
+                },
+                {
+                    "name": "DOCKER_LOCAL_HOST_IP",
+                    "value": "54.255.236.226"
+                },
+                {
+                    "name":  "DOCKER_LOCAL_HOST_PORT",
+                    "value": "8080"
                     
                 }
             ],
