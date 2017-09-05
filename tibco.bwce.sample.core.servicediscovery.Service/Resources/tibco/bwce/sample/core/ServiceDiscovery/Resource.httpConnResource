@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:httpconnector="http://xsd.tns.tibco.com/bw/models/sharedresource/httpconnector" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_9KUi8ZQmEeaw8pJ1szngNg" name="tibco.bwce.sample.core.ServiceDiscovery.Resource" type="httpconnector:HttpConnectorConfiguration">
+  <jndi:configuration xsi:type="httpconnector:HttpConnectorConfiguration" xmi:id="_9KUi8pQmEeaw8pJ1szngNg">
+    <substitutionBindings xmi:id="_9KUi85QmEeaw8pJ1szngNg" template="host" propName="BW.HOST.NAME"/>
+    <substitutionBindings xmi:id="_2nbg4JQqEeaw8pJ1szngNg" template="svcRegServiceName" propName="SERVICE_NAME"/>
+    <substitutionBindings xmi:id="_3Z44kJQqEeaw8pJ1szngNg" template="port" propName="BW.CLOUD.PORT"/>
+  </jndi:configuration>
+</jndi:namedResource>
