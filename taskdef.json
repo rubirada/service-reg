@@ -24,7 +24,7 @@
                 },
                 {
                     "name": "DOCKER_LOCAL_HOST_IP",
-                    "value": "54.255.236.226"
+                    "value": "bwce-test-718728166.ap-southeast-1.elb.amazonaws.com"
                 },
                 {
                     "name":  "DOCKER_LOCAL_HOST_PORT",
