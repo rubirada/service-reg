@@ -28,7 +28,7 @@
                 },
                 {
                     "name":  "DOCKER_LOCAL_HOST_PORT",
-                    "value": "8080"
+                    "value": "8087"
                     
                 }
             ],
